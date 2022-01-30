@@ -1,4 +1,4 @@
-create table user(
+create table userEntity(
                      userid bigint not null primary key,
                      name varchar(255) null,
                      password varchar(255) null,
@@ -7,7 +7,7 @@ create table user(
 
 
 )
-create table role(
+create table roleEntity(
                      roleid bigint not null primary key,
                      name varchar(100) null
 

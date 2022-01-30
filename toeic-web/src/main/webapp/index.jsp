@@ -1,8 +1,3 @@
-<html>
-<head>
-   <title>test project</title>
-</head>
-<body>
-<h1>test project</h1>
-</body>
-</html>
+<%@ include file="common/taglib.jsp"%>
+
+<c:redirect url="/login.html"/>
